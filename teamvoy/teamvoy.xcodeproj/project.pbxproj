@@ -13,6 +13,7 @@
 		E78AF5631E420FE500A282BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78AF5611E420FE500A282BD /* Main.storyboard */; };
 		E78AF5651E420FE500A282BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78AF5641E420FE500A282BD /* Assets.xcassets */; };
 		E78AF5681E420FE500A282BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78AF5661E420FE500A282BD /* LaunchScreen.storyboard */; };
+		E79DB7411E4399A900ADC5C7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79DB7401E4399A900ADC5C7 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E78AF5641E420FE500A282BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E78AF5671E420FE500A282BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78AF5691E420FE500A282BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79DB7401E4399A900ADC5C7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				E78AF55D1E420FE400A282BD /* AppDelegate.swift */,
 				E78AF55F1E420FE500A282BD /* ViewController.swift */,
+				E79DB7401E4399A900ADC5C7 /* CollectionViewCell.swift */,
 				E78AF5611E420FE500A282BD /* Main.storyboard */,
 				E78AF5641E420FE500A282BD /* Assets.xcassets */,
 				E78AF5661E420FE500A282BD /* LaunchScreen.storyboard */,
@@ -213,6 +216,7 @@
 			files = (
 				E78AF5601E420FE500A282BD /* ViewController.swift in Sources */,
 				E78AF55E1E420FE400A282BD /* AppDelegate.swift in Sources */,
+				E79DB7411E4399A900ADC5C7 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +378,7 @@
 				E78AF56E1E420FE500A282BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
